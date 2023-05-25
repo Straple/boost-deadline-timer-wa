@@ -68,9 +68,6 @@ struct lol {
 };
 
 int main() {
-    // ifstream cin("input.txt");
-    ios::sync_with_stdio(false), cin.tie(0), cout.tie(0);
-
     boost::asio::io_context io_context;
     lol loller(io_context);
 
